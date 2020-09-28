@@ -1,0 +1,1 @@
+python train.py --dataroot ./datasets/facades --name new2  --gpu_ids 0 --num_threads 0 --batch_size 16 --model pix2pix --display_server None --netG  resnet_9blocks --print_freq 20 --direction BtoA --lambda_L1 100 --dataset_mode aligned --norm batch --pool_size 0
